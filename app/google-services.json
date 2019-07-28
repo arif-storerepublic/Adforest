@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "170168176816",
+    "firebase_url": "https://adforest-ab45e.firebaseio.com",
+    "project_id": "adforest-ab45e",
+    "storage_bucket": "adforest-ab45e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:170168176816:android:7c49d06b0b89bf03",
+        "android_client_info": {
+          "package_name": "com.scriptsbundle.adforest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "170168176816-qjbq123315dni8ro7uvidnd9sebe9u1csfb06u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.scriptsbundle.adforest",
+            "certificate_hash": "feed22d8f88128d7863f4eab5df00f058b1138c7"
+          }
+        },
+        {
+          "client_id": "170168176816-qjbq123315dni8ro7uvidnd9sebe9u1csfb06u.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "170168176816-qjbq123315dni8ro7uvidnd9sebe9u1csfb06u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_tT3afDTRExMQ4TKL9qw8fgAZtxcUx_4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "170168176816-qjbq123315dni8ro7uvidnd9sebe9u1csfb06u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
