@@ -7,7 +7,7 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context="com.scriptsbundle.adforest.home.HomeActivity">
+        tools:context="com.storerepublic.wifaapp.home.HomeActivity">
 
         <WebView
             android:id="@+id/webView"

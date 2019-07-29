@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.scriptsbundle.adforest.home.AddNewAdPost">
+    tools:context="com.storerepublic.wifaapp.home.AddNewAdPost">
     <android.support.v4.widget.NestedScrollView
         android:id="@+id/scrollView"
         android:layout_width="match_parent"
@@ -72,7 +72,7 @@
                         android:layout_gravity="center"
                         android:layout_weight="1">
 
-                        <com.scriptsbundle.adforest.utills.CircularProgressBar
+                        <com.storerepublic.wifaapp.utills.CircularProgressBar
                             android:id="@+id/circularprogressbar1"
                             style="@style/Widget.ProgressBar.Holo.CircularProgressBar"
                             android:layout_width="150dp"
@@ -293,7 +293,7 @@
                     <fragment
                         android:id="@+id/map"
                         android:name="com.google.android.gms.maps.SupportMapFragment"
-                        class="com.scriptsbundle.adforest.helper.WorkaroundMapFragment"
+                        class="com.storerepublic.wifaapp.helper.WorkaroundMapFragment"
                         android:layout_width="match_parent"
                         android:layout_height="220dp" />
 

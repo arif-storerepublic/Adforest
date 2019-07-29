@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.scriptsbundle.adforest">
+    package="com.storerepublic.wifaapp">
 
     <uses-sdk
         android:targetSdkVersion="27"
@@ -30,7 +30,7 @@
 
 
     <application
-        android:name="com.scriptsbundle.adforest.App"
+        android:name="com.storerepublic.wifaapp.App"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -40,7 +40,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name="com.scriptsbundle.adforest.SplashScreen"
+            android:name="com.storerepublic.wifaapp.SplashScreen"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -49,7 +49,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.scriptsbundle.adforest.signinorup.MainActivity"
+            android:name="com.storerepublic.wifaapp.signinorup.MainActivity"
             android:screenOrientation="portrait" />
 
         <meta-data
@@ -57,7 +57,7 @@
             android:value="@integer/google_play_services_version" />
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyCO5yORAeUZK2JVs4_4ukVriM4Nl4kPJoI" />
+            android:value="AIzaSyDaII8SZLpexT76F9vaNUTR9rS21DYOEC0" />
         <meta-data
             android:name="com.facebook.sdk.ApplicationId"
             android:value="@string/facebook_app_id" />
@@ -81,7 +81,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.scriptsbundle.adforest.home.HomeActivity"
+            android:name="com.storerepublic.wifaapp.home.HomeActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar"
             android:uiOptions="splitActionBarWhenNarrow"
@@ -93,73 +93,73 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.scriptsbundle.adforest.home.SearchActivity"
+            android:name="com.storerepublic.wifaapp.home.SearchActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar"
             android:windowSoftInputMode="adjustResize">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.scriptsbundle.adforest.home.HomeActivity" />
+                android:value="com.storerepublic.wifaapp.home.HomeActivity" />
         </activity>
         <activity
-            android:name="com.scriptsbundle.adforest.messages.Message"
+            android:name="com.storerepublic.wifaapp.messages.Message"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.scriptsbundle.adforest.home.HomeActivity" />
+                android:value="com.storerepublic.wifaapp.home.HomeActivity" />
         </activity>
         <activity
-            android:name="com.scriptsbundle.adforest.messages.ChatActivity"
-            android:parentActivityName="com.scriptsbundle.adforest.messages.Message"
+            android:name="com.storerepublic.wifaapp.messages.ChatActivity"
+            android:parentActivityName="com.storerepublic.wifaapp.messages.Message"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.scriptsbundle.adforest.messages.Message" />
+                android:value="com.storerepublic.wifaapp.messages.Message" />
         </activity>
         <activity
-            android:name="com.scriptsbundle.adforest.home.AddNewAdPost"
-            android:parentActivityName="com.scriptsbundle.adforest.home.HomeActivity"
+            android:name="com.storerepublic.wifaapp.home.AddNewAdPost"
+            android:parentActivityName="com.storerepublic.wifaapp.home.HomeActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.scriptsbundle.adforest.home.HomeActivity" />
+                android:value="com.storerepublic.wifaapp.home.HomeActivity" />
         </activity>
         <activity
-            android:name="com.scriptsbundle.adforest.home.EditAdPost"
-            android:parentActivityName="com.scriptsbundle.adforest.home.HomeActivity"
+            android:name="com.storerepublic.wifaapp.home.EditAdPost"
+            android:parentActivityName="com.storerepublic.wifaapp.home.HomeActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.scriptsbundle.adforest.home.HomeActivity" />
+                android:value="com.storerepublic.wifaapp.home.HomeActivity" />
         </activity>
         <activity
-            android:name="com.scriptsbundle.adforest.home.Thankyou"
+            android:name="com.storerepublic.wifaapp.home.Thankyou"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
         <activity
-            android:name="com.scriptsbundle.adforest.ad_detail.Ad_detail_activity"
-            android:parentActivityName="com.scriptsbundle.adforest.home.HomeActivity"
+            android:name="com.storerepublic.wifaapp.ad_detail.Ad_detail_activity"
+            android:parentActivityName="com.storerepublic.wifaapp.home.HomeActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.scriptsbundle.adforest.home.HomeActivity" />
+                android:value="com.storerepublic.wifaapp.home.HomeActivity" />
         </activity>
         <activity
-            android:name="com.scriptsbundle.adforest.home.StripePayment"
+            android:name="com.storerepublic.wifaapp.home.StripePayment"
             android:screenOrientation="portrait" />
 
         <activity
-            android:name="com.scriptsbundle.adforest.home.InAppPurchaseActivity"
+            android:name="com.storerepublic.wifaapp.home.InAppPurchaseActivity"
             android:screenOrientation="portrait"/>
 
         <!-- Full screen image Viewer -->
         <activity
-            android:name="com.scriptsbundle.adforest.ad_detail.full_screen_image.FullScreenViewActivity"
+            android:name="com.storerepublic.wifaapp.ad_detail.full_screen_image.FullScreenViewActivity"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
 
@@ -190,12 +190,12 @@
 
 
         <!-- Firebase Notifications -->
-        <service android:name="com.scriptsbundle.adforest.Notification.MyFirebaseMessagingService">
+        <service android:name="com.storerepublic.wifaapp.Notification.MyFirebaseMessagingService">
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />
             </intent-filter>
         </service>
-        <service android:name="com.scriptsbundle.adforest.Notification.MyFirebaseInstanceIDService">
+        <service android:name="com.storerepublic.wifaapp.Notification.MyFirebaseInstanceIDService">
             <intent-filter>
                 <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
             </intent-filter>
@@ -217,7 +217,7 @@
         <!-- android:configChanges="keyboardHidden|orientation" /> -->
         <!-- <activity android:name="io.card.payment.DataEntryActivity" /> -->
         <!-- PayPal -->
-        <receiver android:name="com.scriptsbundle.adforest.utills.NoInternet.NetwordStateManager">
+        <receiver android:name="com.storerepublic.wifaapp.utills.NoInternet.NetwordStateManager">
             <intent-filter>
                 <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
                 <action android:name="android.net.wifi.WIFI_STATE_CHANGED" />

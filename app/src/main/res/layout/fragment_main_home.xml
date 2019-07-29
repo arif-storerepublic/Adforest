@@ -14,7 +14,7 @@
         android:layout_height="wrap_content"
         android:background="@color/cardview_shadow_end_color"
         android:padding="2dp"
-        tools:context="com.scriptsbundle.adforest.home.FragmentHome">
+        tools:context="com.storerepublic.wifaapp.home.FragmentHome">
 
         <LinearLayout
             android:id="@+id/HomeCustomLayout"
