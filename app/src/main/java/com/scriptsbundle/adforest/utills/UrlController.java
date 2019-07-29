@@ -22,9 +22,9 @@ public class UrlController {
                 .writeTimeout(5, TimeUnit.MINUTES)
                 .readTimeout(5, TimeUnit.MINUTES)
                 .build();
-    private static String Purchase_code = "Your Purchase code is here";
-    private static String Custom_Security = "your Custom Security is here/ Can be any random String";
-    private static String IP_ADDRESS = "http://YourDomainName.com/";
+    private static String Purchase_code = "wifaandroidapp";
+    private static String Custom_Security = "androidapp";
+    private static String IP_ADDRESS = "https://wifa.ng/";
     private static String Base_URL = IP_ADDRESS + "wp-json/adforest/v1/";
     private static OkHttpClient.Builder httpClient = new OkHttpClient.Builder();
     private static Retrofit.Builder builder =
@@ -70,8 +70,8 @@ public class UrlController {
         if (SettingsMain.isSocial(context)) {
             map.put("AdForest-Login-Type", "social");
         }
-        map.put("Purchase-Code", Purchase_code);
-        map.put("custom-security", Custom_Security);
+        map.put("wifaandroidapp", Purchase_code);
+        map.put("androidapp", Custom_Security);
         map.put("Adforest-Request-From", "android");
         map.put("Adforest-Lang-Locale", SettingsMain.getLanguageCode());
         map.put("Content-Type", "application/json");
@@ -84,8 +84,8 @@ public class UrlController {
         if (SettingsMain.isSocial(context)) {
             map.put("AdForest-Login-Type", "social");
         }
-        map.put("Purchase-Code", Purchase_code);
-        map.put("custom-security", Custom_Security);
+        map.put("wifaandroidapp", Purchase_code);
+        map.put("androidapp", Custom_Security);
         map.put("Adforest-Lang-Locale", SettingsMain.getLanguageCode());
         map.put("Adforest-Request-From", "android");
         map.put("Cache-Control", "max-age=640000");
